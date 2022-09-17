@@ -50,9 +50,10 @@ def cinema():
             print("--------------New client--------------")
         else:
             print("You have to start data entry again ! ")
+        print(60 * "-")
         return cinema()
-        print(20 * "-")
-        return cinema()
+        
+
 
     # It's checking if the age is between 18 and 200.
     elif 18 <= age <= 200:
@@ -85,8 +86,9 @@ def cinema():
             print("--------------New client--------------")
         else:
             print("You have to start data entry again ! ")
+            print(60 * "-")
         return cinema()
-        print(20 * "-")
+        
 
     else:
         print("Enter a real age !")
